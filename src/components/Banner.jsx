@@ -14,16 +14,16 @@ const Banner = () => {
                     <p className='text-[#64748B]'>Total Friends</p>
                 </div>
                 <div className='w-[260px]  h-auto bg-white p-8 flex flex-col items-center'>
-                    <h5 className='text-3xl font-semibold'>10</h5>
-                    <p className='text-[#64748B]'>Total Friends</p>
+                    <h5 className='text-3xl font-semibold'>3</h5>
+                    <p className='text-[#64748B]'>On Track</p>
                 </div>
                 <div className='w-[260px]  h-auto bg-white p-8 flex flex-col items-center'>
-                    <h5 className='text-3xl font-semibold'>10</h5>
-                    <p className='text-[#64748B]'>Total Friends</p>
+                    <h5 className='text-3xl font-semibold'>6</h5>
+                    <p className='text-[#64748B]'>Need Attention</p>
                 </div>
                 <div className='w-[260px]  h-auto bg-white p-8 flex flex-col items-center'>
-                    <h5 className='text-3xl font-semibold'>10</h5>
-                    <p className='text-[#64748B]'>Total Friends</p>
+                    <h5 className='text-3xl font-semibold'>12</h5>
+                    <p className='text-[#64748B]'>Interactions This Month</p>
                 </div>
             </div>
             <hr className='text-[#E9E9E9] mt-10 container mx-auto'></hr>

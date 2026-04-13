@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import FriendsCard from './FriendsCard';
+import { ClipLoader } from 'react-spinners';
 
 const Friends = () => {
 
@@ -24,13 +25,22 @@ const Friends = () => {
 
     return (
         <div className='bg-[#F8FAFC]'>
-            <div className='container mx-auto grid justify-center items-center gap-6 md:grid-cols-2 lg:grid-cols-4'>
                 { loading === true ? 
-                    <p>Loading</p> :
-                    friends.map(friend => <FriendsCard key={friend.id} friend={friend}></FriendsCard>)
+                    <div className='flex justify-center items-center'>
+                         <ClipLoader
+                            color={{color : "green"}}
+                            loading={loading}
+                            size={150}
+                            aria-label="Loading Spinner"
+                            data-testid="loader"
+                        /> 
+                    </div> :
+
+                    <div className='container mx-auto grid justify-center items-center gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
+                    {friends.map(friend => <FriendsCard key={friend.id} friend={friend}></FriendsCard>)}
+                    </div>
                 }
             </div>
-        </div>
     );
 };
 

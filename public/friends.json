@@ -7,33 +7,36 @@
     "days_since_contact": 62,
     "status": "almost due",
     "tags": ["work", "college"],
-    "bio": "Met David at university during our CS degree. Now we work in the same industry. We catch up over coffee whenever he's in town.",
+    "bio": "College buddy, same industry.",
     "goal": 30,
-    "next_due_date": "2026-04-20"
+    "next_due_date": "2026-04-20",
+    "preferred_contact": "call"
   },
   {
     "id": 2,
-    "name": "Emma Wilson",
+    "name": "Ryan Wilson",
     "picture": "https://randomuser.me/api/portraits/men/44.jpg",
-    "email": "emma.wilson@outlook.com",
-    "days_since_contact": 72,
+    "email": "ryan.wilson@outlook.com",
+    "days_since_contact": 6,
     "status": "overdue",
     "tags": ["family"],
-    "bio": "Emma is my cousin who moved to London three years ago. We try to video call every month but life gets busy. Miss her a lot.",
+    "bio": "Cousin abroad, miss him loads.",
     "goal": 14,
-    "next_due_date": "2026-03-30"
+    "next_due_date": "2026-03-30",
+    "preferred_contact": "video"
   },
   {
     "id": 3,
-    "name": "Lisa Nakamura",
+    "name": "Nathan Nakamura",
     "picture": "https://randomuser.me/api/portraits/men/68.jpg",
-    "email": "lisa.nakamura@yahoo.com",
+    "email": "nathan.nakamura@yahoo.com",
     "days_since_contact": 69,
     "status": "overdue",
     "tags": ["work"],
-    "bio": "Lisa was my manager at my first job. She taught me so much about the industry. We still keep in touch and she's a great mentor.",
+    "bio": "Former manager, great mentor.",
     "goal": 21,
-    "next_due_date": "2026-03-15"
+    "next_due_date": "2026-03-15",
+    "preferred_contact": "email"
   },
   {
     "id": 4,
@@ -43,21 +46,23 @@
     "days_since_contact": 22,
     "status": "overdue",
     "tags": ["hobby", "travel"],
-    "bio": "James and I met on a hiking trip in Nepal. We bonded over our love for adventure travel and have been planning our next trip since.",
+    "bio": "Travel buddy, met hiking in Nepal.",
     "goal": 30,
-    "next_due_date": "2026-03-10"
+    "next_due_date": "2026-03-10",
+    "preferred_contact": "text"
   },
   {
     "id": 5,
-    "name": "Sofia Reyes",
+    "name": "Marco Reyes",
     "picture": "https://randomuser.me/api/portraits/men/26.jpg",
-    "email": "sofia.reyes@gmail.com",
+    "email": "marco.reyes@gmail.com",
     "days_since_contact": 8,
     "status": "on-track",
     "tags": ["college", "close friend"],
-    "bio": "Sofia has been my best friend since freshman year. We talk almost every week and she's always the first person I call with big news.",
+    "bio": "Best friend since freshman year.",
     "goal": 14,
-    "next_due_date": "2026-04-20"
+    "next_due_date": "2026-04-20",
+    "preferred_contact": "call"
   },
   {
     "id": 6,
@@ -67,21 +72,23 @@
     "days_since_contact": 25,
     "status": "almost due",
     "tags": ["work", "close friend"],
-    "bio": "Marcus and I worked together at a startup for two years. We went through a lot together — late nights, product launches, and team chaos.",
+    "bio": "Startup teammate, been through a lot.",
     "goal": 30,
-    "next_due_date": "2026-04-18"
+    "next_due_date": "2026-04-18",
+    "preferred_contact": "text"
   },
   {
     "id": 7,
-    "name": "Aisha Patel",
+    "name": "Alex Patel",
     "picture": "https://randomuser.me/api/portraits/men/55.jpg",
-    "email": "aisha.patel@gmail.com",
+    "email": "alex.patel@gmail.com",
     "days_since_contact": 5,
     "status": "on-track",
     "tags": ["college", "hobby"],
-    "bio": "Aisha and I were roommates in college. We share a passion for photography and still go on photo walks together when schedules allow.",
+    "bio": "College roommate, photography lover.",
     "goal": 14,
-    "next_due_date": "2026-04-22"
+    "next_due_date": "2026-04-22",
+    "preferred_contact": "text"
   },
   {
     "id": 8,
@@ -91,21 +98,23 @@
     "days_since_contact": 90,
     "status": "overdue",
     "tags": ["family"],
-    "bio": "Oliver is my childhood neighbor who's now living in Canada. We grew up playing football together. I really need to call him soon.",
+    "bio": "Childhood neighbor, now in Canada.",
     "goal": 30,
-    "next_due_date": "2026-02-28"
+    "next_due_date": "2026-02-28",
+    "preferred_contact": "call"
   },
   {
     "id": 9,
-    "name": "Priya Sharma",
+    "name": "Rohan Sharma",
     "picture": "https://randomuser.me/api/portraits/men/33.jpg",
-    "email": "priya.sharma@gmail.com",
+    "email": "rohan.sharma@gmail.com",
     "days_since_contact": 11,
     "status": "on-track",
     "tags": ["work"],
-    "bio": "Priya is a designer I collaborate with on freelance projects. She has an incredible eye for detail and always pushes the work to be better.",
+    "bio": "Freelance designer, sharp eye for detail.",
     "goal": 21,
-    "next_due_date": "2026-04-25"
+    "next_due_date": "2026-04-25",
+    "preferred_contact": "email"
   },
   {
     "id": 10,
@@ -115,21 +124,23 @@
     "days_since_contact": 45,
     "status": "overdue",
     "tags": ["hobby", "college"],
-    "bio": "Carlos and I bonded over music production in college. He's now a professional sound engineer in Madrid. Time zones make it hard to connect.",
+    "bio": "Music producer friend, based in Madrid.",
     "goal": 21,
-    "next_due_date": "2026-03-25"
+    "next_due_date": "2026-03-25",
+    "preferred_contact": "video"
   },
   {
     "id": 11,
-    "name": "Nadia Hassan",
+    "name": "Tariq Hassan",
     "picture": "https://randomuser.me/api/portraits/men/17.jpg",
-    "email": "nadia.hassan@gmail.com",
+    "email": "tariq.hassan@gmail.com",
     "days_since_contact": 18,
     "status": "almost due",
     "tags": ["close friend", "travel"],
-    "bio": "Nadia and I met at a travel blogging conference. We've since visited three countries together and are planning a trip to Japan next year.",
+    "bio": "Travel blogger, Japan trip coming up.",
     "goal": 21,
-    "next_due_date": "2026-04-16"
+    "next_due_date": "2026-04-16",
+    "preferred_contact": "text"
   },
   {
     "id": 12,
@@ -139,8 +150,9 @@
     "days_since_contact": 3,
     "status": "on-track",
     "tags": ["family", "close friend"],
-    "bio": "Ethan is my younger brother's best friend who became like a brother to me too. We play online games together weekly and grab lunch when possible.",
+    "bio": "Brother's best friend, like family.",
     "goal": 7,
-    "next_due_date": "2026-04-17"
+    "next_due_date": "2026-04-17",
+    "preferred_contact": "call"
   }
 ]

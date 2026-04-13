@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Timeline = () => {
+const TimelineContext = () => {
     return (
         <div>
-            Timeline
+            
         </div>
     );
 };
 
-export default Timeline;
+export default TimelineContext;

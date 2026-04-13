@@ -6,7 +6,7 @@ import XLogo from '../assets/twitter.png'
 
 const Footer = () => {
     return (
-        <div className='bg-[#244D3F] flex flex-col justify-center items-center text-center p-20 mt-20'>
+        <div className='bg-[#244D3F] flex flex-col justify-center items-center text-center p-20'>
             <div>
                 <div>
                     <img className='mx-auto mb-6' src={FooterLogo} alt="" />

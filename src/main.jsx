@@ -6,6 +6,8 @@ import { createBrowserRouter } from 'react-router';
 import NotFound from './pages/NotFound';
 import RootLayout from './layout/RootLayout';
 import Homepage from './pages/Homepage';
+import Timeline from './pages/Timeline';
+import FriendDetails from './pages/FriendDetails';
 
 const router = createBrowserRouter([
 
@@ -18,17 +20,18 @@ const router = createBrowserRouter([
         element : <Homepage></Homepage>
       },
       {
-        path : "FriendDetails",
-        element : <h2>Friend Details</h2>,
+        path : "/FriendDetails/:id",
+        loader : () => fetch('/friends.json'),
+        element : <FriendDetails></FriendDetails>
       },
 
       {
-        path : "Timeline",
-        element : <h2>Timeline</h2>,
+        path : "/Timeline",
+        element : <Timeline></Timeline>
       },
 
       {
-        path : "Stats",
+        path : "/Stats",
         element : <h2>Stats</h2>,
       },
     ],

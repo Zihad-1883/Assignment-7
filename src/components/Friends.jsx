@@ -24,7 +24,7 @@ const Friends = () => {
     // console.log(friends)
 
     return (
-        <div className='bg-[#F8FAFC]'>
+        <div className='bg-[#F8FAFC] pb-20'>
                 { loading === true ? 
                     <div className='flex justify-center items-center'>
                          <ClipLoader

@@ -23,7 +23,15 @@ const TimelineProvider = ({children}) => {
             setTextFriend([...textFriend , currentFriend])
         }
 
-    const data = { handleCall , callFriend , setCallFriend , handleText , textFriend , setTextFriend }
+     const [videoFriend , setVideoFriend] = useState([])
+    
+        const handleVideo = (currentFriend) => {
+            // console.log(currentFriend);
+            toast.success(`Video to ${currentFriend.name}`);  
+            setVideoFriend([...videoFriend , currentFriend])
+        }
+
+    const data = { handleCall , callFriend , setCallFriend , handleText , textFriend , setTextFriend , handleVideo , videoFriend , setVideoFriend }
 
     return <TimelineContext.Provider value={data}>
         {children}

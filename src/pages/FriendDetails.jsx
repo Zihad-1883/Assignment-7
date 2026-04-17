@@ -29,7 +29,7 @@ const FriendDetails = () => {
     }
 
 
-    const { handleCall , callFriend , handleText , textFriend} = useContext(TimelineContext);
+    const { handleCall , callFriend , handleText , textFriend , handleVideo , videoFriend} = useContext(TimelineContext);
     // console.log(handleCall , callFriend)
 
 
@@ -96,7 +96,7 @@ const FriendDetails = () => {
                                 <img src={TextIcon} alt="" />
                                 <p>Text</p>
                             </div>
-                            <div className='px-10 py-4 bg-[#F8FAFC] rounded-md flex flex-col justify-center items-center gap-2'>
+                            <div onClick={() => handleVideo(expectedFriend)} className='px-10 py-4 bg-[#F8FAFC] rounded-md flex flex-col justify-center items-center gap-2'>
                                 <img src={VideoIcon} alt="" />
                                 <p>Video</p>
                             </div>

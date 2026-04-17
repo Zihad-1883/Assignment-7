@@ -10,6 +10,7 @@ import Timeline from './pages/Timeline';
 import FriendDetails from './pages/FriendDetails';
 import { ToastContainer } from 'react-toastify';
 import TimelineProvider from './Contexts/TimelineProvider';
+import Stats from './pages/Stats';
 
 
 const router = createBrowserRouter([
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
 
       {
         path : "/Stats",
-        element : <h2>Stats</h2>,
+        element : <Stats></Stats>
       },
     ],
     errorElement : <NotFound></NotFound>,

@@ -65,7 +65,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-👉 [View Live Site](https://your-live-link.vercel.app)
+👉 [View Live Site](keen-keeper-7.netlify.app)
 
 ---
 

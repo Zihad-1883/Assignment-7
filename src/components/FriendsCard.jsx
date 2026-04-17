@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const FriendsCard = ({friend}) => {
     // console.log(friend);
@@ -16,7 +17,7 @@ const FriendsCard = ({friend}) => {
     }
 
     return (
-        <div className='bg-white flex flex-col justify-center items-center p-6 rounded-md shadow-sm space-y-3'>
+        <Link to={`/FriendDetails/${friend.id}`}  className='bg-white flex flex-col justify-center items-center p-6 rounded-md shadow-sm space-y-3'>
             <img className='rounded-full' src={friend.picture} alt="" />
             <h1>{friend.name}</h1>
             <p>{friend.days_since_contact}d Ago</p>
@@ -25,7 +26,7 @@ const FriendsCard = ({friend}) => {
                 <span className={`${friend.tags[1] ? "bg-[#CBFADB] px-2 py-1 rounded-full" : ""}`}>{friend.tags[1]}</span>
             </div>
             <span className={statusColor()}>{friend.status}</span>
-        </div>
+        </Link>
     );
 };
 

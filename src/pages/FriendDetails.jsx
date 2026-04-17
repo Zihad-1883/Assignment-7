@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import CallIcon from '../assets/call.png'
+import TextIcon from '../assets/text.png'
+import VideoIcon from '../assets/video.png'
+import { TimelineContext } from '../Contexts/TimelineProvider';
 
 const FriendDetails = () => {
 
@@ -24,6 +27,11 @@ const FriendDetails = () => {
             return "bg-[#244D3F] px-3 py-1 rounded-full text-white"
         }
     }
+
+
+    const { handleCall , callFriend , handleText , textFriend} = useContext(TimelineContext);
+    // console.log(handleCall , callFriend)
+
 
     return (
         
@@ -80,16 +88,16 @@ const FriendDetails = () => {
                         <h3 className='mb-4 text-xl font-medium'>Quick Check-In</h3>
 
                         <div className='grid grid-cols-3 gap-4'>
-                            <div className='px-10 py-4 bg-[#F8FAFC] rounded-md flex flex-col justify-center items-center gap-2'>
+                            <div onClick={() => handleCall(expectedFriend)} className='px-10 py-4 bg-[#F8FAFC] rounded-md flex flex-col justify-center items-center gap-2'>
                                 <img src={CallIcon} alt="" />
                                 <p>Call</p>
                             </div>
-                            <div className='px-10 py-4 bg-[#F8FAFC] rounded-md flex flex-col justify-center items-center gap-2'>
-                                <img src={CallIcon} alt="" />
+                            <div onClick={() => handleText(expectedFriend)} className='px-10 py-4 bg-[#F8FAFC] rounded-md flex flex-col justify-center items-center gap-2'>
+                                <img src={TextIcon} alt="" />
                                 <p>Text</p>
                             </div>
                             <div className='px-10 py-4 bg-[#F8FAFC] rounded-md flex flex-col justify-center items-center gap-2'>
-                                <img src={CallIcon} alt="" />
+                                <img src={VideoIcon} alt="" />
                                 <p>Video</p>
                             </div>
                         </div>

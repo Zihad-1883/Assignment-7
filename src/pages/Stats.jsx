@@ -18,7 +18,7 @@ const Stats = () => {
 
     return (
         
-        <div className='bg-[#F8FAFC] py-10'>
+        <div className='bg-[#F8FAFC] py-12'>
             <div className='container mx-auto '>
                 <h1 className='text-5xl font-bold mb-8'>Friendship Analytics</h1>
                 <div className='flex items-center justify-center bg-white p-6'>

@@ -65,7 +65,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-keen-keeper-7.netlify.app
+👉 [View Live Site](https://keen-keeper-7.netlify.app)
 
 ---
 
